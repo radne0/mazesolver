@@ -29,7 +29,7 @@ class Window:
         self.running = False
 
     # Draw a line on the canvas.
-    def draw_line(self,line,fill_color):
+    def draw_line(self,line,fill_color="black"):
         line.draw(self.canvas,fill_color)
 
 
