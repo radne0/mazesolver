@@ -14,7 +14,8 @@ def some_path(my_win):
          Cell(650,700,250,300,my_win,tw=False,lw=False,rw=True,bw=True),
          Cell(650,700,200,250,my_win,tw=False,lw=True,rw=True,bw=False),
     ]
-
+    for line in path:
+        line.draw()
 
 
 def all_wall_types(my_win):
@@ -41,8 +42,7 @@ def all_wall_types(my_win):
     for cell in all_cells:
         cell.draw()
 
-    for line in path:
-        line.draw()
+
 
 
 def main():
