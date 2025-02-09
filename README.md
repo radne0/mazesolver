@@ -1,1 +1,2 @@
 # mazesolver
+* solve maze
