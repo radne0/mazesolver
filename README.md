@@ -1,2 +1,2 @@
 # mazesolver
-* solve maze
+* Basic Window Implement.
