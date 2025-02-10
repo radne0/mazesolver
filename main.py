@@ -53,10 +53,6 @@ def test_cell_draw(my_win):
     c1.draw_move(c2)
     c3.draw_move(c1,undo=True)
 
-
-
-
-
 def main():
     my_win = Window(800,600,"Maze Solver")
     test_cell_draw(my_win)
