@@ -43,12 +43,23 @@ def all_wall_types(my_win):
         cell.draw()
 
 
+def test_cell_draw(my_win):
+    c1=Cell(50,100,50,100,my_win)
+    c2=Cell(400,450,250,300,my_win)
+    c3=Cell(100,150,400,450,my_win)
+    c1.draw()
+    c2.draw()
+    c3.draw()
+    c1.draw_move(c2)
+    c3.draw_move(c1,undo=True)
+
+
+
 
 
 def main():
     my_win = Window(800,600,"Maze Solver")
-    all_wall_types(my_win)
-    some_path(my_win)
+    test_cell_draw(my_win)
     my_win.wait_for_close()
 
 main()
