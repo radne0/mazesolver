@@ -1,6 +1,7 @@
 from window import Window
 from shapes import Point, Line
 from cell import Cell
+from maze import Maze
 
 def some_path(my_win):
     path =[
